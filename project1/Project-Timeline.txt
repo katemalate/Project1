@@ -1,0 +1,8 @@
+Kate's Project Timeline
+
+March 6 - Planning
+March 7 - Initial Layout of what Website would look like + attended a seminar 
+March 8 - Worked on unfinished activity
+March 9 - Started daily homepage with CSS
+March 10 - Other functionalities inluding picture alignment, and responsive website
+March 11 - (Nagcram haha) Forms and checked design

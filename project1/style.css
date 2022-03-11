@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+  box-sizing: border-box;
+}
+
+/*css reset*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#menu li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+#home {
+  background-color: white;
+}
+
+#zodiacs {
+  background-color: #02405e;
+  height: auto !important;
+}
+
+#shop {
+  background-color: #02405e;
+  height: auto !important;
+}
+
+#contact {
+  background-color: #02405e;
+  height: auto !important;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.home1 {
+  position: block;
+  padding-top: 20%;
+  padding-left: 10%;
+  color: #fff;
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale (0.6);
+  filter: invert(1);
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+#coastro {
+  color: #02405e;
+  font-size: 1.2em;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+#written {
+  color: black;
+  font-size: 70px;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+#Send {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: white;
+  color: black;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+#visit {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #02405e;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#textboxHome {
+  color: #333;
+  text-align: left;
+}
+
+.sectionHead {
+  padding-top: 12%;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 100px;
+  color: white;
+}
+.inputContact {
+  width: 20%;
+}
+
+.contactSection {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.contactUs {
+  text-align: center;
+  color: white;
+}
+
+.sectionHead td {
+  text-align: center;
+}
+
+.sectionHead img {
+  width: 200px;
+  height: 200px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
